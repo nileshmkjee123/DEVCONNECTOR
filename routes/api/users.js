@@ -13,7 +13,7 @@ const errors = validationResult(req);
     if(!errors.isEmpty()) {
         return res.status(400).json({errors:errors.array()});
     }
-    //see if user exists
+    //see if user  exists 
     res.send('User route');
 });
 
